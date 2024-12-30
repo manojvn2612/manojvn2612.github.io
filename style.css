@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Reset some default styles */
 * {
     margin: 0;
@@ -158,4 +159,63 @@ footer {
 
 footer p {
     margin: 0;
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+#projects {
+    background-color: #f4f4f4;
+}
+
+#repo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.repo {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: calc(33.333% - 2rem);
+    box-sizing: border-box;
+}
+
+.repo h3 {
+    margin-top: 0;
+}
+
+.repo p {
+    margin-bottom: 0;
+>>>>>>> 47d2baa09361e19802ada084ac2e9022d0787894
 }
