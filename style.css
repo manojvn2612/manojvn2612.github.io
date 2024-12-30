@@ -1,0 +1,161 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding-top: 60px;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+header nav {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Section styles */
+section {
+    padding: 4rem 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #f39c12;
+    display: inline-block;
+}
+
+/* About section styles */
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Projects section styles */
+#projects {
+    background-color: #f9f9f9;
+}
+
+#repo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.repo {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: calc(33.333% - 2rem);
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.repo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.repo h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.repo p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+.repo a {
+    text-decoration: none;
+    color: #f39c12;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.repo a:hover {
+    color: #e67e22;
+}
+
+/* Contact section styles */
+#contact p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+#contact a {
+    color: #f39c12;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #e67e22;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
